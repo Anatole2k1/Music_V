@@ -1,0 +1,229 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+.container_web img{
+  /* Full height */
+  max-height: 100%; 
+  width: 1500px;
+  opacity: 0.3;
+  /* Center and scale the image nicely */
+}
+div.container_web{
+    position: absolute;
+    height: auto;
+    width: 1500px;
+}
+div.item_right{
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    position: relative;
+  
+}
+.item_right img{
+    width: 300px;
+    height: 300px;
+
+}
+.container_item{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 400px;
+}
+.container_item h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.container_item p{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.item_left{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 475px;
+}
+.item_left iframe{
+    width: 400px;
+    height: 300px;
+}
+.item_spotify{
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.item_spotify img{
+    width: 110px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.item_spotify p{
+    float: right;
+    margin-right: 70px;
+    border-left: 1px solid gainsboro;
+    padding: 1px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.item_spotify a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.item_spotify a:hover{
+    color: coral;
+}
+.item_apple_music{
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.item_apple_music img{
+    width: 110px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.item_apple_music p{
+    float: right;
+    margin-right: 70px;
+    border-left: 1px solid gainsboro;
+    padding: 1px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.item_apple_music a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.item_apple_music a:hover{
+    color: coral;
+}
+.item_amazone_music{
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.item_amazone_music img{
+    width: 110px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.item_amazone_music p{
+    float: right;
+    margin-right: 70px;
+    border-left: 1px solid gainsboro;
+    padding: 1px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.item_amazone_music a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.item_amazone_music a:hover{
+    color: coral;
+}
+.item_youtube_music{
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.item_youtube_music img{
+    width: 110px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.item_youtube_music p{
+    float: right;
+    margin-right: 70px;
+    border-left: 1px solid gainsboro;
+    padding: 1px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.item_youtube_music a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.item_youtube_music a:hover{
+    color: coral;
+}
+.item_deezer{
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.item_deezer img{
+    width: 110px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.item_deezer p{
+    float: right;
+    margin-right: 70px;
+    border-left: 1px solid gainsboro;
+    padding: 1px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.item_deezer a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.item_deezer a:hover{
+    color: coral;
+}
+.container_bottom{
+    position: absolute;
+    margin-left: 510px;
+    margin-top: 1430px;
+    
+}
+.container_bottom p{
+    color: white;
+}
+.container_bottom a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container_bottom p:first-child{
+    margin-left: 19px;
+}
+.container_bottom p:last-child{
+
+}
